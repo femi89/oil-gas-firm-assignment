@@ -36,7 +36,10 @@ class Post extends Database
         if(empty($error_message)){
            while($data=mysqli_fetch_array($result)){
                echo '<div class="col-md-4">';
-                echo '<div class="image-box"><img class="img-fluid" data-bs-hover-animate="pulse" src="'.$root.'/'.$data["feature_image"].'"><h4 class="title"><a href="news-post.php?post='.$data["post_id"].'"> '.$data["post_title"].'</a></h4><p>'.substr_replace($data["post_body"],"...", 200, -1).'</p><a class="btn btn-danger" role="button" href="news-post.php?post='.$data["post_id"].'">read more&nbsp;<i class="fa fa-long-arrow-right"></i></a></div>
+                echo '<div class="image-box">
+<img class="img-fluid" data-bs-hover-animate="pulse" src="'.$root.'/'.$data["feature_image"].'">
+<div class="image-box-content">
+<h4 class="title"><a href="news-post.php?post='.$data["post_id"].'"> '.$data["post_title"].'</a></h4><p>'.substr_replace($data["post_body"],"...", 200, -1).'</p><a class="btn btn-danger" role="button" href="news-post.php?post='.$data["post_id"].'">read more&nbsp;<i class="fa fa-long-arrow-right"></i></a></div></div>
                 </div>';
            }
         }
