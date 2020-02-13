@@ -9,7 +9,7 @@ echo $theme->header($title); //import header
 <!-- Start: header -->
     <header>
         <!-- Start: navigation -->
-       <?php echo $theme->nav('home');?>
+       <?php echo $theme->nav('Home');?>
         <!-- End: navigation -->
     </header>
     <!-- End: header -->
@@ -63,17 +63,17 @@ echo $theme->header($title); //import header
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div>
+                    <div class="prop">
                         <h3 class="title">Innovation</h3>
                         <p>oil and gas industry benefits our lives in many ways. Its products underpin modern society, supplying energy to power industry and heat homes, fuel for transport to carry goods and people all &nbsp;<br></p><a href="#">More&nbsp;<i class="fas fa-long-arrow-alt-right"></i>&nbsp;</a></div>
                 </div>
                 <div class="col-md-4">
-                    <div>
+                    <div class="prop">
                         <h3 class="title">Sustainability</h3>
                         <p>oil and gas industry benefits our lives in many ways. Its products underpin modern society, supplying energy to power industry and heat homes, fuel for transport to carry goods and people all &nbsp;<br></p><a href="#">More&nbsp;<i class="fas fa-long-arrow-alt-right"></i>&nbsp;</a></div>
                 </div>
                 <div class="col-md-4">
-                    <div>
+                    <div class="prop">
                         <h3 class="title">Innovation</h3>
                         <p>oil and gas industry benefits our lives in many ways. Its products underpin modern society, supplying energy to power industry and heat homes, fuel for transport to carry goods and people all &nbsp;<br></p><a href="#">More&nbsp;<i class="fas fa-long-arrow-alt-right"></i>&nbsp;</a></div>
                 </div>
@@ -86,38 +86,38 @@ echo $theme->header($title); //import header
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div>
-                                    <h3 class="text-capitalize" data-aos="fade">Career opportunities</h3>
+                            <div class="col-md-6 order-2 order-md-1">
+                                <div class="pt-2">
+                                    <h3 class="text-capitalize title" data-aos="fade">Career opportunities</h3>
                                     <p>oil and gas industry benefits our lives in many ways. Its products underpin modern society, supplying energy to power industry and heat homes, fuel for transport to carry goods and people all over the world and the
                                         raw materials used to produce many everyday items. Through its extensive supply chain, it employs hundreds of thousands of people and makes a major contribution to the UK economy in terms of tax revenues, technology
                                         and exports.</p>
                                 </div><button class="btn btn-danger btn-lg mb-3" type="button">Apply Now&nbsp;<i class="fa fa-long-arrow-right"></i></button></div>
-                            <div class="col"><img class="img-fluid" src="assets/img/permian-project-tile.jpg"></div>
+                            <div class="col order-1 order-sm-2"><img class="img-fluid" src="assets/img/permian-project-tile.jpg"></div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div>
-                                    <h3 class="text-capitalize">Coporate responsibilty reporting</h3>
+                            <div class="col-md-6 order-2 order-md-1">
+                                <div class="pt-2">
+                                    <h3 class="text-capitalize title">Corporate responsibility reporting</h3>
                                     <p>oil and gas industry benefits our lives in many ways. Its products underpin modern society, supplying energy to power industry and heat homes, fuel for transport to carry goods and people all over the world and the
                                         raw materials used to produce many everyday items. Through its extensive supply chain, it employs hundreds of thousands of people and makes a major contribution to the UK economy in terms of tax revenues, technology
                                         and exports.</p>
                                 </div><button class="btn btn-danger btn-lg" type="button">Read more&nbsp;<i class="fa fa-long-arrow-right"></i></button></div>
-                            <div class="col"><img class="img-fluid" src="assets/img/363.jpg"></div>
+                            <div class="col order-1 order-sm-2"><img class="img-fluid" src="assets/img/363.jpg"></div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div>
-                                    <h3 class="text-capitalize">Coporate responsibilty reporting</h3>
+                            <div class="col-md-6 order-2 order-md-1">
+                                <div class="pt-2">
+                                    <h3 class="text-capitalize title">Corporate responsibility reporting</h3>
                                     <p>oil and gas industry benefits our lives in many ways. Its products underpin modern society, supplying energy to power industry and heat homes, fuel for transport to carry goods and people all over the world and the
                                         raw materials used to produce many everyday items. Through its extensive supply chain, it employs hundreds of thousands of people and makes a major contribution to the UK economy in terms of tax revenues, technology
                                         and exports.</p>
                                 </div><button class="btn btn-danger btn-lg" type="button">Read more&nbsp;<i class="fa fa-long-arrow-right"></i></button></div>
-                            <div class="col"><img class="img-fluid" src="assets/img/363.jpg"></div>
+                            <div class="col order-1 order-sm-2"><img class="img-fluid" src="assets/img/363.jpg"></div>
                         </div>
                     </div>
                 </div>
